@@ -1,0 +1,11 @@
+spring:
+  profiles: test
+  database:
+    driverClassName: com.mysql.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_chocho
+    username: root
+    password: root
+  jpa:
+    database: MYSQL
+    generate-ddl: false
